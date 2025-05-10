@@ -51,7 +51,7 @@ class DataWeb:
         df= df.copy()
         if len(df)>0:
             for col in ('abrir',	'max',	'min',	'cerrar',	'cierre_ajustado',	'volumen'):
-                df[col] = (df[col].str.replace("\.","",regex=True).str.replace(",",'.'))
+                df[col] = (df[col].str.replace(r"\.","",regex=True).str.replace(",",'.'))
 
         return df
 
