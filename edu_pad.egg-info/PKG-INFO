@@ -1,10 +1,14 @@
-Metadata-Version: 1.0
-Name: edu-pad
+Metadata-Version: 2.4
+Name: edu_pad
 Version: 0.0.1
 Summary: tarea analisis de datos # 1
-Home-page: UNKNOWN
 Author: Alejandro Cadavid
 Author-email: acu.123@hotmail.com
-License: UNKNOWN
-Description: UNKNOWN
-Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: summary
