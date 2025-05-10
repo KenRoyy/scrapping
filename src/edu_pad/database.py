@@ -2,6 +2,7 @@ import pandas as pd
 import sqlite3
 import os
 
+# 1 sobre escribir , 2 actualizar 3 insertar al final
 
 class DataBase:
     def __init__(self):
